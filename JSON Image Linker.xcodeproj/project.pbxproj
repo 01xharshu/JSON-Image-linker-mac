@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F143B72BAF27B46E7B81F67 /* JSON_Image_LinkerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE4E645371EA5564A4D089B /* JSON_Image_LinkerApp.swift */; };
+		55422A8536DE8CD0E2E82A3A /* VisualizerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71121161C528869DA038FF82 /* VisualizerView.swift */; };
+		75256A3A7C5153A0D62CB407 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A6EAC9F42561719921A103 /* SettingsView.swift */; };
+		8EE6904EF1D04FFECE46D422 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB96470DF4962C92EF6162 /* MainView.swift */; };
+		902C252A3E288E9385F28E53 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE6BB00079651B5BB3AFA58 /* WelcomeView.swift */; };
+		B6C17E2120BCAFBC9CDBB066 /* NSImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0830418117386189E43AABD /* NSImage+Extensions.swift */; };
+		BEA21609B436E28901E946B4 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8A715955C2A0FD9EBF58A4 /* SidebarView.swift */; };
+		D76D13B1045BBD8C29FE523F /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164A005D38FEB6FE355306FA /* Toast.swift */; };
+		E78AC2E0A10E3ED50F61C3A9 /* ImageEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5499E46278CE202878FA25 /* ImageEntry.swift */; };
+		ECD18B77FA88756B61A6E7B8 /* EntryFormSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D403AA72F8CFA163976DB73E /* EntryFormSheet.swift */; };
+		EF2D746D18BF2ACB517D8F03 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E5936A3769EEB2B33DCBE9 /* AppSettings.swift */; };
+		F650C76F72B59FDEB97F6FB4 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B7D47D8AB7AC890EFF7FB5 /* AppViewModel.swift */; };
+		FBDAC6ADD06F26B3E138CBD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E337F3F677C3DA1C039E8BA2 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		164A005D38FEB6FE355306FA /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		3CCB96470DF4962C92EF6162 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		5DAC02CD3C120FD2024C8850 /* JSON Image Linker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JSON Image Linker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FC14E2057CB23A851A14800 /* JSON_Image_Linker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JSON_Image_Linker.entitlements; sourceTree = "<group>"; };
+		6BE6BB00079651B5BB3AFA58 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		71121161C528869DA038FF82 /* VisualizerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualizerView.swift; sourceTree = "<group>"; };
+		8B8A715955C2A0FD9EBF58A4 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		A1E5936A3769EEB2B33DCBE9 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		A5A6EAC9F42561719921A103 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D403AA72F8CFA163976DB73E /* EntryFormSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryFormSheet.swift; sourceTree = "<group>"; };
+		DE5499E46278CE202878FA25 /* ImageEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEntry.swift; sourceTree = "<group>"; };
+		E0830418117386189E43AABD /* NSImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSImage+Extensions.swift"; sourceTree = "<group>"; };
+		E337F3F677C3DA1C039E8BA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4B7D47D8AB7AC890EFF7FB5 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		FBE4E645371EA5564A4D089B /* JSON_Image_LinkerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON_Image_LinkerApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		07F91EB70ABD82031807E975 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E0830418117386189E43AABD /* NSImage+Extensions.swift */,
+				164A005D38FEB6FE355306FA /* Toast.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		25E7E14E58701FA178AD7A72 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E4B7D47D8AB7AC890EFF7FB5 /* AppViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		28EBF2E753DAA02C8D282D1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DAC02CD3C120FD2024C8850 /* JSON Image Linker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35BFBAAB8AF839872BDB3B22 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D403AA72F8CFA163976DB73E /* EntryFormSheet.swift */,
+				3CCB96470DF4962C92EF6162 /* MainView.swift */,
+				A5A6EAC9F42561719921A103 /* SettingsView.swift */,
+				8B8A715955C2A0FD9EBF58A4 /* SidebarView.swift */,
+				71121161C528869DA038FF82 /* VisualizerView.swift */,
+				6BE6BB00079651B5BB3AFA58 /* WelcomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5946CD56FAEA069282B0D432 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1E5936A3769EEB2B33DCBE9 /* AppSettings.swift */,
+				DE5499E46278CE202878FA25 /* ImageEntry.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A29669288D0E2DE125D3FB4B = {
+			isa = PBXGroup;
+			children = (
+				A563FD209D87AE257F2B125F /* JSON Image Linker */,
+				28EBF2E753DAA02C8D282D1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A563FD209D87AE257F2B125F /* JSON Image Linker */ = {
+			isa = PBXGroup;
+			children = (
+				E337F3F677C3DA1C039E8BA2 /* Assets.xcassets */,
+				5FC14E2057CB23A851A14800 /* JSON_Image_Linker.entitlements */,
+				FBE4E645371EA5564A4D089B /* JSON_Image_LinkerApp.swift */,
+				07F91EB70ABD82031807E975 /* Helpers */,
+				5946CD56FAEA069282B0D432 /* Models */,
+				25E7E14E58701FA178AD7A72 /* ViewModels */,
+				35BFBAAB8AF839872BDB3B22 /* Views */,
+			);
+			path = "JSON Image Linker";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A606F558FAB869D4FF246D0 /* JSON Image Linker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F265C53B7D7BB259AF10F06 /* Build configuration list for PBXNativeTarget "JSON Image Linker" */;
+			buildPhases = (
+				7367F00F31E6EACC046E5DB7 /* Sources */,
+				C20F39E41FF9A8256A568B38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JSON Image Linker";
+			packageProductDependencies = (
+			);
+			productName = "JSON Image Linker";
+			productReference = 5DAC02CD3C120FD2024C8850 /* JSON Image Linker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF8BE795D7477222280EB8A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6A606F558FAB869D4FF246D0 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 58AD196594A2E77349463F95 /* Build configuration list for PBXProject "JSON Image Linker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = A29669288D0E2DE125D3FB4B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 28EBF2E753DAA02C8D282D1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A606F558FAB869D4FF246D0 /* JSON Image Linker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C20F39E41FF9A8256A568B38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDAC6ADD06F26B3E138CBD5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7367F00F31E6EACC046E5DB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2D746D18BF2ACB517D8F03 /* AppSettings.swift in Sources */,
+				F650C76F72B59FDEB97F6FB4 /* AppViewModel.swift in Sources */,
+				ECD18B77FA88756B61A6E7B8 /* EntryFormSheet.swift in Sources */,
+				E78AC2E0A10E3ED50F61C3A9 /* ImageEntry.swift in Sources */,
+				0F143B72BAF27B46E7B81F67 /* JSON_Image_LinkerApp.swift in Sources */,
+				8EE6904EF1D04FFECE46D422 /* MainView.swift in Sources */,
+				B6C17E2120BCAFBC9CDBB066 /* NSImage+Extensions.swift in Sources */,
+				75256A3A7C5153A0D62CB407 /* SettingsView.swift in Sources */,
+				BEA21609B436E28901E946B4 /* SidebarView.swift in Sources */,
+				D76D13B1045BBD8C29FE523F /* Toast.swift in Sources */,
+				55422A8536DE8CD0E2E82A3A /* VisualizerView.swift in Sources */,
+				902C252A3E288E9385F28E53 /* WelcomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		056344C7FBA8EE0B55117616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "JSON Image Linker/JSON_Image_Linker.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.harshu.JSON-Image-Linker";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		82D1B4041061A4D4F71AF87C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A2DB1A6C7198A268D043EF7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "JSON Image Linker/JSON_Image_Linker.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.harshu.JSON-Image-Linker";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A36E9040DB4DFFFA945BF589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F265C53B7D7BB259AF10F06 /* Build configuration list for PBXNativeTarget "JSON Image Linker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056344C7FBA8EE0B55117616 /* Debug */,
+				A2DB1A6C7198A268D043EF7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		58AD196594A2E77349463F95 /* Build configuration list for PBXProject "JSON Image Linker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D1B4041061A4D4F71AF87C /* Debug */,
+				A36E9040DB4DFFFA945BF589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF8BE795D7477222280EB8A3 /* Project object */;
+}
