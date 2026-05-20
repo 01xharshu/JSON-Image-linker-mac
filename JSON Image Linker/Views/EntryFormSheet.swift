@@ -265,6 +265,11 @@ struct EntryFormSheet: View {
                 self.title = entry.title ?? ""
                 self.author = entry.author ?? ""
                 self.tags = entry.tags?.joined(separator: ", ") ?? ""
+            } else {
+                // New entry — suggest the next filename based on the last entry's pattern
+                let suggestion = viewModel.suggestNextFilename()
+                self.filename = suggestion.name
+                self.fileExtension = suggestion.ext
             }
             checkClipboard()
         }

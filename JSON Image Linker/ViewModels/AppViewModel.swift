@@ -401,6 +401,44 @@ class AppViewModel: ObservableObject {
         }
     }
     
+    /// Suggests the next filename by detecting the trailing number pattern from the last entry.
+    /// e.g. "Image11" → "Image12", "photo_003" → "photo_004", "sunset" → "sunset1"
+    func suggestNextFilename() -> (name: String, ext: String) {
+        guard let lastEntry = entries.last else {
+            return ("Image1", "png")
+        }
+        
+        let baseName = lastEntry.filenameOnly
+        let ext = lastEntry.fileExtension.isEmpty ? "png" : lastEntry.fileExtension
+        
+        // Find the trailing number portion
+        var numberPart = ""
+        var prefixPart = ""
+        var foundDigit = false
+        
+        for char in baseName.reversed() {
+            if char.isNumber {
+                numberPart = String(char) + numberPart
+                foundDigit = true
+            } else {
+                break
+            }
+        }
+        
+        if foundDigit && !numberPart.isEmpty {
+            prefixPart = String(baseName.dropLast(numberPart.count))
+            let currentNum = Int(numberPart) ?? 0
+            let nextNum = currentNum + 1
+            
+            // Preserve zero-padding (e.g. "003" → "004")
+            let padded = String(format: "%0\(numberPart.count)d", nextNum)
+            return ("\(prefixPart)\(padded)", ext)
+        } else {
+            // No trailing number — append "1"
+            return ("\(baseName)1", ext)
+        }
+    }
+    
     // Check if the image file already exists physically on the disk
     func fileExistsOnDisk(filenameWithoutExtension: String, fileExtension: String) -> Bool {
         guard let root = workingFolderURL else { return false }
